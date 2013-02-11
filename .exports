@@ -17,3 +17,15 @@ export LESS_TERMCAP_md="$ORANGE"
 
 # Don’t clear the screen after quitting a manual page
 export MANPAGER="less -X"
+
+# Xcode
+export DEVELOPER_DIR="/Applications/Xcode.app/Contents/Developer/"
+
+export CC=/usr/local/bin/gcc-4.7
+export CXX=/usr/local/bin/g++-4.7
+
+# virtualenvwrapper
+export WORKON_HOME=${HOME}/.virtualenvs
+export PROJECT_HOME=${HOME}/Dev
+
+export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"

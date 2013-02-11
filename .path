@@ -1,0 +1,6 @@
+# Setting PATH for Python 2.7
+PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
+
+PATH="/usr/local/opt/coreutils/libexec/gnubin:${PATH}"
+
+export PATH
