@@ -21,8 +21,8 @@ export MANPAGER="less -X"
 # Xcode
 export DEVELOPER_DIR="/Applications/Xcode.app/Contents/Developer/"
 
-export CC=/usr/local/bin/gcc-4.7
-export CXX=/usr/local/bin/g++-4.7
+#export CC=/usr/local/bin/gcc-4.7
+#export CXX=/usr/local/bin/g++-4.7
 
 # virtualenvwrapper
 export WORKON_HOME=${HOME}/.virtualenvs
