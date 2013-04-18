@@ -36,4 +36,7 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 
 [ -s "/usr/local/etc/bash_completion.d/git-completion.bash" ] && source /usr/local/etc/bash_completion.d/git-completion.bash
 
-[ -s "$HOME/.scm_breeze/scm_breeze.sh" ] && source $HOME/.scm_breeze/scm_breeze.sh
+[ -s "/Users/minorblend/.scm_breeze/scm_breeze.sh" ] && source "/Users/minorblend/.scm_breeze/scm_breeze.sh"
+
+VIRTUALENVWRAPPER=`which virtualenvwrapper.sh`
+[ -s $VIRTUALENVWRAPPER ] && source $VIRTUALENVWRAPPER
