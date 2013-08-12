@@ -1,6 +1,3 @@
-# Make vim the default editor
-export EDITOR="vim"
-
 # Larger bash history (allow 32³ entries; default is 500)
 export HISTSIZE=32768
 export HISTFILESIZE=$HISTSIZE
@@ -13,16 +10,13 @@ export LANG="en_US"
 export LC_ALL="en_US.UTF-8"
 
 # Highlight section titles in manual pages
-export LESS_TERMCAP_md="$ORANGE"
+#export LESS_TERMCAP_md="$ORANGE"
 
 # Don’t clear the screen after quitting a manual page
 export MANPAGER="less -X"
 
 # Xcode
 export DEVELOPER_DIR="/Applications/Xcode.app/Contents/Developer/"
-
-#export CC=/usr/local/bin/gcc-4.7
-#export CXX=/usr/local/bin/g++-4.7
 
 # Scala & Java
 export JAVA_HOME=$(/usr/libexec/java_home)
@@ -32,7 +26,7 @@ export DRIP_SHUTDOWN=30
 export SBT_OPTS="-XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -XX:PermSize=128M -XX:MaxPermSize=512M"
 
 # virtualenvwrapper
-export WORKON_HOME=${HOME}/.virtualenvs
-export PROJECT_HOME=${HOME}/Dev
+export WORKON_HOME="${HOME}/.virtualenvs"
+export PROJECT_HOME="${HOME}/Dev"
 
-export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
+export DOTFILES_HOME="${HOME}/dotfiles"
