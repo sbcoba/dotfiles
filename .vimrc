@@ -1,3 +1,5 @@
+colorscheme railscat
+
 " Make Vim more useful
 set nocompatible
 " Use the OS clipboard by default (on versions compiled with `+clipboard`)
@@ -78,6 +80,9 @@ set showcmd
 "endif
 " Start scrolling three lines before the horizontal window border
 set scrolloff=3
+
+" for GUI
+set guifont=Monaco:h11
 
 " Strip trailing whitespace (,ss)
 function! StripWhitespace()
