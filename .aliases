@@ -22,6 +22,8 @@ alias rm="rm -i"
 alias cp="cp -i"
 alias mv="mv -i"
 
+alias vi="vim"
+
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
 
